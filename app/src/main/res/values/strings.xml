@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">12August</string>
+    <string name="msg_observer_activity">Observer</string>
+    <string name="msg_viewmodel_activity">View Model</string>
+    <string name="counter_text">0</string>
+    <string name="increment_text">+</string>
+    <string name="msg_photoshower">Photo Shower</string>
+    <string name="msg_livedata_activity">LiveData</string>
+    <string name="button_changetext">Change Text</string>
+    <string name="data1_text">Data1</string>
+    <string name="data2_text">Data2</string>
+    <string name="msg_data_binding">Data Binding</string>
+    <string name="data_binding_hint">Enter your text</string>
+    <string name="msg_data_binding2">Data Binding 2</string>
+    <string name="custom_binding_text">Custom Binding</string>
+    <string name="show_roomdata_text">Room Database</string>
+    <string name="show_roomdata_text_mvvm">Room Database using MVVM</string>
+
+
+</resources>

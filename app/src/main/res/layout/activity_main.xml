@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_roomdatabase_mvvm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_8dp"
+        android:onClick="showRoomDatabseMVVM"
+        android:padding="@dimen/_8dp"
+        android:text="@string/show_roomdata_text_mvvm"
+        app:layout_constraintEnd_toEndOf="@+id/button_observer_activity"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="@+id/button_observer_activity"
+        app:layout_constraintTop_toBottomOf="@+id/button_roomdatabase"
+        tools:ignore="UsingOnClickInXml,DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/button_roomdatabase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_8dp"
+        android:onClick="showRoomDatabase"
+        android:padding="@dimen/_8dp"
+        android:text="@string/show_roomdata_text"
+        app:layout_constraintEnd_toEndOf="@+id/button_observer_activity"
+        app:layout_constraintHorizontal_bias="0.603"
+        app:layout_constraintStart_toStartOf="@+id/button_observer_activity"
+        app:layout_constraintTop_toBottomOf="@+id/button_custombinding"
+        tools:ignore="UsingOnClickInXml,DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/button_custombinding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_8dp"
+        android:onClick="showCustomBinding"
+        android:padding="@dimen/_8dp"
+        android:text="@string/custom_binding_text"
+        app:layout_constraintEnd_toEndOf="@+id/button_observer_activity"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="@+id/button_observer_activity"
+        app:layout_constraintTop_toBottomOf="@+id/button_binding_2"
+        tools:ignore="UsingOnClickInXml,DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/button_binding_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_8dp"
+        android:onClick="showDataBinding2"
+        android:padding="@dimen/_8dp"
+        android:text="@string/msg_data_binding2"
+        app:layout_constraintEnd_toEndOf="@+id/button_observer_activity"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="@+id/button_observer_activity"
+        app:layout_constraintTop_toBottomOf="@+id/button_binding_"
+        tools:ignore="UsingOnClickInXml,DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/button_binding_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_8dp"
+        android:layout_marginTop="28dp"
+        android:onClick="showDataBinding"
+        android:padding="@dimen/_8dp"
+        android:text="@string/msg_data_binding"
+        app:layout_constraintEnd_toEndOf="@+id/button_observer_activity"
+        app:layout_constraintStart_toStartOf="@+id/button_observer_activity"
+        app:layout_constraintTop_toBottomOf="@+id/button_livedata_activity"
+        tools:ignore="UsingOnClickInXml,DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/button_livedata_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_8dp"
+        android:onClick="showPhotosActivity"
+        android:padding="@dimen/_8dp"
+        android:text="@string/msg_photoshower"
+        app:layout_constraintEnd_toEndOf="@+id/button_observer_activity"
+        app:layout_constraintStart_toStartOf="@+id/button_observer_activity"
+        app:layout_constraintTop_toBottomOf="@+id/button_photoshower"
+        tools:ignore="UsingOnClickInXml,DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/button_photoshower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_8dp"
+        android:onClick="showLiveDataActivity"
+        android:padding="@dimen/_8dp"
+        android:text="@string/msg_livedata_activity"
+        app:layout_constraintEnd_toEndOf="@+id/button_observer_activity"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="@+id/button_observer_activity"
+        app:layout_constraintTop_toBottomOf="@+id/button_viewmodel_activity"
+        tools:ignore="UsingOnClickInXml,DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/button_viewmodel_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_8dp"
+        android:onClick="showViewModelActivity"
+        android:padding="@dimen/_8dp"
+        android:text="@string/msg_viewmodel_activity"
+        app:layout_constraintEnd_toEndOf="@+id/button_observer_activity"
+        app:layout_constraintStart_toStartOf="@+id/button_observer_activity"
+        app:layout_constraintTop_toBottomOf="@+id/button_observer_activity"
+        tools:ignore="UsingOnClickInXml,DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/button_observer_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_8dp"
+        android:padding="@dimen/_8dp"
+        android:onClick="showObserverActivity"
+        android:text="@string/msg_observer_activity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="UsingOnClickInXml" />
+</androidx.constraintlayout.widget.ConstraintLayout>
